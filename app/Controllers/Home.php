@@ -28,17 +28,17 @@ class Home extends BaseController
         $id = $this->request->getVar('id');
         $password = $this->request->getVar('password');
 
-        $clinicModel = new \App\Models\clinicModel();
-        $loginResult = $clinicModel -> where('clinic_id',$id)
-                                    -> where('clinic_password',$password)
+        $adminModel = new \App\Models\adminModel();
+        $loginResult = $adminModel -> where('admin_id',$id)
+                                    -> where('admin_password',$password)
                                     -> get() -> getNumRows();
         if($loginResult > 0) {
-            $clinicIdx = $clinicModel -> select('clinic_idx')
-                                      -> where('clinic_id',$id)
-                                      -> where('clinic_password',$password)
+            $adminIdx = $adminModel -> select('admin_idx')
+                                      -> where('admin_id',$id)
+                                      -> where('admin_password',$password)
                                       -> get() -> getResultArray();
             $sessionData = [
-                'clinic_idx'  => $clinicIdx[0]['clinic_idx'],
+                'admin_idx'  => $adminIdx[0]['admin_idx'],
                 'logged_in' => true
             ];
             $this->session->set($sessionData);
@@ -60,7 +60,7 @@ class Home extends BaseController
     // 세션 체크
     // public function sessionCheck() 
     // {
-    //     $result = $this->session->get('clinic_idx');
+    //     $result = $this->session->get('admin_idx');
     //     return $this->response->setJSON($result);
     // }
 }

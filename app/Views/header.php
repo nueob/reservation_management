@@ -265,10 +265,10 @@
               <li class="sidebar-item">
                 <a
                   class="sidebar-link waves-effect waves-dark sidebar-link"
-                  href="/wating_time_setting/index"
+                  href="/notice_management/index"
                   aria-expanded="false"
                   ><i class="mdi mdi-relative-scale"></i
-                  ><span class="hide-menu">대기시간 설정</span></a
+                  ><span class="hide-menu">공지사항 관리</span></a
                 >
               </li>
               <li class="sidebar-item">

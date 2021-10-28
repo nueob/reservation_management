@@ -1,0 +1,40 @@
+CRITICAL - 2021-10-28 06:28:07 --> Undefined variable: adminModel
+#0 C:\Users\lake\Documents\GitHub\reservation_management\app\Controllers\Notice_Management.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\lake\\D...', 40, Array)
+#1 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(802): App\Controllers\Notice_Management->getNoticeInfo()
+#2 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notice_Management))
+#3 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\reservation_management\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\reservation_management\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}
+CRITICAL - 2021-10-28 06:29:31 --> Undefined variable: adminModel
+#0 C:\Users\lake\Documents\GitHub\reservation_management\app\Controllers\Notice_Management.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\lake\\D...', 40, Array)
+#1 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(802): App\Controllers\Notice_Management->getNoticeInfo()
+#2 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notice_Management))
+#3 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\reservation_management\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\reservation_management\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}
+CRITICAL - 2021-10-28 06:32:18 --> Undefined variable: adminModel
+#0 C:\Users\lake\Documents\GitHub\reservation_management\app\Controllers\Notice_Management.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\lake\\D...', 40, Array)
+#1 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(802): App\Controllers\Notice_Management->getNoticeInfo()
+#2 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notice_Management))
+#3 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\reservation_management\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\reservation_management\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}
+CRITICAL - 2021-10-28 07:00:30 --> Undefined variable: adminModel
+#0 C:\Users\lake\Documents\GitHub\reservation_management\app\Controllers\Notice_Management.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\lake\\D...', 40, Array)
+#1 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(802): App\Controllers\Notice_Management->getNoticeInfo()
+#2 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notice_Management))
+#3 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\reservation_management\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\reservation_management\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}
+CRITICAL - 2021-10-28 07:02:44 --> Undefined variable: adminModel
+#0 C:\Users\lake\Documents\GitHub\reservation_management\app\Controllers\Notice_Management.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\lake\\D...', 40, Array)
+#1 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(802): App\Controllers\Notice_Management->getNoticeInfo()
+#2 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notice_Management))
+#3 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\reservation_management\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\reservation_management\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}

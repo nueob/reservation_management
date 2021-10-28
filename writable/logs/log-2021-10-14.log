@@ -1,51 +1,51 @@
-CRITICAL - 2021-10-14 01:13:12 --> Class 'App\Controllers\ClinicModel' not found
+CRITICAL - 2021-10-14 01:13:12 --> Class 'App\Controllers\adminModel' not found
 #0 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->loginProc()
 #1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
 #2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #3 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
 #4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
 #5 {main}
-CRITICAL - 2021-10-14 01:14:26 --> Class 'Models\ClinicModel' not found
+CRITICAL - 2021-10-14 01:14:26 --> Class 'Models\adminModel' not found
 #0 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->loginProc()
 #1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
 #2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #3 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
 #4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
 #5 {main}
-CRITICAL - 2021-10-14 01:15:26 --> Class 'App\Models\clinicModel' not found
+CRITICAL - 2021-10-14 01:15:26 --> Class 'App\Models\adminModel' not found
 #0 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->loginProc()
 #1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
 #2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #3 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
 #4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
 #5 {main}
-CRITICAL - 2021-10-14 01:15:29 --> Class 'App\Models\clinicModel' not found
+CRITICAL - 2021-10-14 01:15:29 --> Class 'App\Models\adminModel' not found
 #0 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->loginProc()
 #1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
 #2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #3 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
 #4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
 #5 {main}
-CRITICAL - 2021-10-14 01:15:40 --> Class 'App\Models\clinicModel' not found
+CRITICAL - 2021-10-14 01:15:40 --> Class 'App\Models\adminModel' not found
 #0 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->loginProc()
 #1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
 #2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #3 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
 #4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
 #5 {main}
-CRITICAL - 2021-10-14 01:16:47 --> Class 'App\Models\clinicModel' not found
+CRITICAL - 2021-10-14 01:16:47 --> Class 'App\Models\adminModel' not found
 #0 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->loginProc()
 #1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
 #2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #3 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
 #4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
 #5 {main}
-ERROR - 2021-10-14 01:42:05 --> Unknown column 'clinic_info.deleted_at' in 'where clause'
-CRITICAL - 2021-10-14 01:42:05 --> Unknown column 'clinic_info.deleted_at' in 'where clause'
-#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `clinic_...')
-#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `clinic_...')
-#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `clinic_...')
-#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `clinic_...', Array, false)
+ERROR - 2021-10-14 01:42:05 --> Unknown column 'admin_info.deleted_at' in 'where clause'
+CRITICAL - 2021-10-14 01:42:05 --> Unknown column 'admin_info.deleted_at' in 'where clause'
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `admin_...')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `admin_...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `admin_...')
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `admin_...', Array, false)
 #4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
 #5 C:\Users\lake\Documents\GitHub\MedicCorona\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
 #6 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(25): CodeIgniter\BaseModel->first()
@@ -55,12 +55,12 @@ CRITICAL - 2021-10-14 01:42:05 --> Unknown column 'clinic_info.deleted_at' in 'w
 #10 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
 #11 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
 #12 {main}
-ERROR - 2021-10-14 01:42:29 --> Unknown column 'clinic_info.deleted_at' in 'where clause'
-CRITICAL - 2021-10-14 01:42:29 --> Unknown column 'clinic_info.deleted_at' in 'where clause'
-#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `clinic_...')
-#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `clinic_...')
-#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `clinic_...')
-#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `clinic_...', Array, false)
+ERROR - 2021-10-14 01:42:29 --> Unknown column 'admin_info.deleted_at' in 'where clause'
+CRITICAL - 2021-10-14 01:42:29 --> Unknown column 'admin_info.deleted_at' in 'where clause'
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `admin_...')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `admin_...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `admin_...')
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `admin_...', Array, false)
 #4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
 #5 C:\Users\lake\Documents\GitHub\MedicCorona\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
 #6 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(25): CodeIgniter\BaseModel->first()
@@ -81,7 +81,7 @@ CRITICAL - 2021-10-14 01:42:54 --> syntax error, unexpected ''code'' (T_CONSTANT
 #7 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
 #8 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
 #9 {main}
-CRITICAL - 2021-10-14 01:43:09 --> Undefined index: clinic_idx
+CRITICAL - 2021-10-14 01:43:09 --> Undefined index: admin_idx
 #0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\lake\\D...', 27, Array)
 #1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->loginProc()
 #2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
@@ -97,7 +97,7 @@ CRITICAL - 2021-10-14 01:44:09 --> Undefined variable: session
 #4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
 #5 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
 #6 {main}
-CRITICAL - 2021-10-14 01:48:40 --> Undefined index: clinic_idx
+CRITICAL - 2021-10-14 01:48:40 --> Undefined index: admin_idx
 #0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Views\html\login.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\lake\\D...', 170, Array)
 #1 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(214): include('C:\\Users\\lake\\D...')
 #2 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
@@ -109,7 +109,7 @@ CRITICAL - 2021-10-14 01:48:40 --> Undefined index: clinic_idx
 #8 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
 #9 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
 #10 {main}
-CRITICAL - 2021-10-14 01:49:28 --> Undefined index: clinic_idx
+CRITICAL - 2021-10-14 01:49:28 --> Undefined index: admin_idx
 #0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Views\html\login.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\lake\\D...', 170, Array)
 #1 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(214): include('C:\\Users\\lake\\D...')
 #2 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
@@ -245,8 +245,8 @@ CRITICAL - 2021-10-14 04:44:09 --> Undefined property: App\Controllers\Dashboard
 #4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
 #5 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
 #6 {main}
-ERROR - 2021-10-14 04:45:30 --> Unknown column 'r.clinic_idx' in 'on clause'
-CRITICAL - 2021-10-14 04:45:30 --> Unknown column 'r.clinic_idx' in 'on clause'
+ERROR - 2021-10-14 04:45:30 --> Unknown column 'r.admin_idx' in 'on clause'
+CRITICAL - 2021-10-14 04:45:30 --> Unknown column 'r.admin_idx' in 'on clause'
 #0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
 #1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
 #2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')

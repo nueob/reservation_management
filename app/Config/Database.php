@@ -35,7 +35,7 @@ class Database extends Config
         'hostname' => 'localhost',
         'username' => 'web',
         'password' => 'IqH56hfT!HQjLj3r',
-        'database' => 'screening_clinic_db',
+        'database' => 'reservation_management',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,

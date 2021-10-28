@@ -53,13 +53,13 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4 col-xlg-3" @click="goToWatingTimeSetting">
+            <div class="col-md-6 col-lg-4 col-xlg-3" @click="goToNoticeManagement">
               <div class="card card-hover">
                 <div class="box bg-warning text-center">
                   <h1 class="font-light text-white">
                     <i class="mdi mdi-collage"></i>
                   </h1>
-                  <h6 class="text-white">대기시간설정</h6>
+                  <h6 class="text-white">공지사항 관리</h6>
                 </div>
               </div>
             </div>
@@ -74,14 +74,14 @@
                   <div class="d-md-flex align-items-center">
                     <div>
                       <h4 class="card-title">누적 예약자 수</h4>
-                      <h5 class="card-subtitle">{{clinicName}}</h5> <!--선별 진료소 이름-->
+                      <h5 class="card-subtitle">{{adminName}}</h5> <!--선별 진료소 이름-->
                     </div>
                   </div>
                   <div class="row">
                     <!-- column -->
                     <div class="col-lg-9">
                       <div class="flot-chart">
-                        <canvas id="reservationChartData" width="1150px" height="350px"></canvas>
+                        <canvas id="reservationChartData" width="1150px" height="300px"></canvas>
                       </div>
                     </div>
                     <div class="col-lg-3">
@@ -100,7 +100,7 @@
                             <small class="font-light">오늘 예약자 수</small>
                           </div>
                         </div>
-                        <div class="col-6 mt-3">
+                        <!-- <div class="col-6 mt-3">
                           <div class="bg-dark p-10 text-white text-center">
                             <i class="mdi mdi-cart fs-3 mb-1 font-16"></i>
                             <h5 class="mb-0 mt-1">{{currentWatingTime}}</h5>
@@ -113,7 +113,7 @@
                             <h5 class="mb-0 mt-1">{{avgWatingTime}}</h5>
                             <small class="font-light">평균 대기 시간</small>
                           </div>
-                        </div>
+                        </div> -->
                         <div class="col-6 mt-3">
                           <div class="bg-dark p-10 text-white text-center">
                             <i class="mdi mdi-table fs-3 mb-1 font-16"></i>
@@ -693,7 +693,7 @@
   var dashboard = new Vue({
     el:'.page-wrapper',
     data:{
-      clinicName: '',
+      adminName: '',
       totalReservationCnt : 0,
       todayReservationCnt : 0,
       currentWatingTime : '',
@@ -703,15 +703,15 @@
       reservationChartData : '',
     },
     created() {
-      this.getClinicInfo();
+      this.getadminInfo();
       this.getReservationInfo();
       this.reservationChartInfo();
     },
     methods:{
-      getClinicInfo : async function() {
-        axios.post('/dashboard/getClinicInfo')
+      getadminInfo : async function() {
+        axios.post('/dashboard/getadminInfo')
           .then(response=>{
-              this.clinicName = response.data;    
+              this.adminName = response.data;    
           })
       },
       getReservationInfo : async function() {
@@ -772,8 +772,8 @@
       goToReservationCharts : function() {
         location.href = '/reservation_charts/index';
       },
-      goToWatingTimeSetting : function() {
-        location.href = '/wating_time_setting/index';
+      goToNoticeManagement : function() {
+        location.href = '/notice_management/index';
       }
     }
   })

@@ -59,7 +59,7 @@
                             class="required form-control" v-model='reserInfo.allow' disabled
                             />
                         </div>
-                        <div style="float:left;width:33%;padding-right: 10px;">
+                        <!-- <div style="float:left;width:33%;padding-right: 10px;">
                             <label for="confirm">검사 결과</label>
                             <input
                             id="confirm"
@@ -67,7 +67,7 @@
                             type="text"
                             class="required form-control" v-model='reserInfo.inoculation' disabled
                             />
-                        </div>
+                        </div> -->
                     </div>
                     <div class='reserSection2' style="vertical-align: middle;padding-top:50px;padding-bottom:50px;">
                         <div style="float:left;width:50%;padding-right: 10px;">
@@ -135,12 +135,12 @@
                         </div>
                     </div>
                  </section>
-                  <h3>문진표</h3>
+                  <!-- <h3>문진표</h3>
                   <section>
                     <ul>
                       <li>* 문진표 들어갈 자리 *</li>
                     </ul>
-                  </section>
+                  </section> -->
                   <!-- <h3>Finish</h3>
                   <section>
                     <input

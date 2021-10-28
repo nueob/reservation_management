@@ -156,7 +156,7 @@
         data:{
           id:'',
           password:''
-        },
+        },       
         methods:{
           goTologin: async function() {
             var frm = new FormData();

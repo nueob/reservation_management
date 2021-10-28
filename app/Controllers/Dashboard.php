@@ -21,60 +21,63 @@ class Dashboard extends BaseController
         echo view('html/dashboard');
         echo view('footer');
     }
-    public function getClinicInfo() 
+    public function getadminInfo() 
     {
-        $clinicIdx = $this->session->get('clinic_idx');
-        $clinicModel = new \App\Models\clinicModel();
-        $clinicName = $clinicModel -> select('clinic_name')
-                                    -> where('clinic_idx',$clinicIdx)
+        $adminIdx = $this->session->get('admin_idx');
+        $adminModel = new \App\Models\adminModel();
+        $adminName = $adminModel -> select('admin_name')
+                                    -> where('admin_idx',$adminIdx)
                                     -> get() -> getResultArray();
-        return $this->response->setJSON($clinicName[0]['clinic_name']);
+        return $this->response->setJSON($adminName[0]['admin_name']);
     }
     public function getReservationInfo()
     {
         $today = date("Y-m-d");
-        $clinicIdx = $this->session->get('clinic_idx');
-        $clinicModel = new \App\Models\clinicModel();
+        $adminIdx = $this->session->get('admin_idx');
+        $adminModel = new \App\Models\adminModel();
         //총 예약자 수
-        $totalReservationCnt = $clinicModel -> join('reservation r','r.clinic_idx = c.clinic_idx')
-                                            -> join('allow_reservation ar','r.reservation_idx = ar.reservation_idx')
-                                            -> where('c.clinic_idx',$clinicIdx)
+        $totalReservationCnt = $adminModel -> join('reservation r','r.admin_idx = a.admin_idx')
+                                            -> where('a.admin_idx',$adminIdx)
                                             -> get() -> getNumRows();
+
         //오늘 예약자 수
-        $todayReservationCnt = $clinicModel -> join('reservation r','r.clinic_idx = c.clinic_idx')
+        $todayReservationCnt = $adminModel -> join('reservation r','r.admin_idx = a.admin_idx')
                                             -> join('allow_reservation ar','r.reservation_idx = ar.reservation_idx')
-                                            -> where('c.clinic_idx',$clinicIdx)
+                                            -> where('a.admin_idx',$adminIdx)
                                             -> where('reservation_date',$today)
                                             -> get() -> getNumRows();
-        //현재 대기 시간
-        $currentWatingTime = $clinicModel -> select('wating_time AS time')
-                                            -> join('wating_time w','c.clinic_idx = w.clinic_idx')
-                                            -> where('c.clinic_idx',$clinicIdx)
-                                            -> orderby('w.created_dt DESC')
-                                            -> limit(1)
-                                            -> get() -> getResultArray();
-        $currentWatingTime = explode('.',$currentWatingTime[0]['time']);
-        //평균 대기 시간
-        $avgWatingTime = $clinicModel -> select('SEC_TO_TIME(AVG(TIME_TO_SEC(wating_time))) as avg')
-                                    -> join('wating_time w','c.clinic_idx = w.clinic_idx')
-                                    -> where('c.clinic_idx',$clinicIdx)
-                                    -> get() -> getResultArray();
-        $avgWatingTime = explode('.',$avgWatingTime[0]['avg']);               
+
+        // //현재 대기 시간
+        // $currentWatingTime = $adminModel -> select('wating_time AS time')
+        //                                     -> join('wating_time w','a.admin_idx = w.admin_idx')
+        //                                     -> where('a.admin_idx',$adminIdx)
+        //                                     -> orderby('w.created_dt DESC')
+        //                                     -> limit(1)
+        //                                     -> get() -> getResultArray();
+        // $currentWatingTime = explode('.',$currentWatingTime[0]['time']);
+
+        // //평균 대기 시간
+        // $avgWatingTime = $adminModel -> select('SEC_TO_TIME(AVG(TIME_TO_SEC(wating_time))) as avg')
+        //                             -> join('wating_time w','a.admin_idx = w.admin_idx')
+        //                             -> where('a.admin_idx',$adminIdx)
+        //                             -> get() -> getResultArray();
+        // $avgWatingTime = explode('.',$avgWatingTime[0]['avg']);     
+
         //대기중인 예약자
-        $watingBookerCnt = $clinicModel -> join('reservation r','c.clinic_idx = r.clinic_idx','left')
+        $watingBookerCnt = $adminModel -> join('reservation r','a.admin_idx = r.admin_idx','left')
                                      -> join('allow_reservation ar','r.reservation_idx = ar.reservation_idx','left')
                                      -> where('r.reservation_date',$today)
-                                     -> where('c.clinic_idx',$clinicIdx)
-                                     -> where('ar.inoculation','n')
+                                     -> where('a.admin_idx',$adminIdx)
+                                     -> where('ar.visitation','n')
                                      -> get() -> getNumRows(); 
         //코로나 확진자
 
         $data = [
-            'clinicIdx' => $clinicIdx,
+            'adminIdx' => $adminIdx,
             'totalReservationCnt' => $totalReservationCnt,
             'todayReservationCnt' => $todayReservationCnt,
-            'currentWatingTime' => $currentWatingTime[0],
-            'avgWatingTime' => $avgWatingTime[0],
+            // 'currentWatingTime' => $currentWatingTime[0],
+            // 'avgWatingTime' => $avgWatingTime[0],
             'watingBookerCnt' => $watingBookerCnt
         ];
 
@@ -82,13 +85,13 @@ class Dashboard extends BaseController
     }
     public function reservationChartInfo()
     {
-        $clinicIdx = $this->session->get('clinic_idx');
-        $clinicModel = new \App\Models\clinicModel();
-        $reservationChart = $clinicModel -> select('count(*) as cnt,r.reservation_date')
-                                         -> join('reservation r','c.clinic_idx = r.clinic_idx','left')
+        $adminIdx = $this->session->get('admin_idx');
+        $adminModel = new \App\Models\adminModel();
+        $reservationChart = $adminModel -> select('count(*) as cnt,r.reservation_date')
+                                         -> join('reservation r','a.admin_idx = r.admin_idx','left')
                                          -> join('allow_reservation ar','r.reservation_idx = ar.reservation_idx','left')
-                                         -> where('ar.inoculation','y')
-                                         -> where('c.clinic_idx',$clinicIdx)
+                                         -> where('ar.visitation','y')
+                                         -> where('a.admin_idx',$adminIdx)
                                          -> groupby('r.reservation_date')
                                          -> orderby('r.reservation_date DESC')
                                          -> limit(7)

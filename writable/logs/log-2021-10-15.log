@@ -40,7 +40,7 @@ CRITICAL - 2021-10-15 00:09:15 --> Unknown column 'c.client_idx' in 'on clause'
 #9 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
 #10 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
 #11 {main}
-CRITICAL - 2021-10-15 00:23:48 --> Undefined variable: clinicModel
+CRITICAL - 2021-10-15 00:23:48 --> Undefined variable: adminModel
 #0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\lake\\D...', 29, Array)
 #1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
 #2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
@@ -48,7 +48,7 @@ CRITICAL - 2021-10-15 00:23:48 --> Undefined variable: clinicModel
 #4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
 #5 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
 #6 {main}
-CRITICAL - 2021-10-15 00:26:58 --> Undefined variable: clinicModel
+CRITICAL - 2021-10-15 00:26:58 --> Undefined variable: adminModel
 #0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\lake\\D...', 29, Array)
 #1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
 #2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
@@ -56,7 +56,7 @@ CRITICAL - 2021-10-15 00:26:58 --> Undefined variable: clinicModel
 #4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
 #5 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
 #6 {main}
-CRITICAL - 2021-10-15 00:26:58 --> Undefined variable: clinicModel
+CRITICAL - 2021-10-15 00:26:58 --> Undefined variable: adminModel
 #0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\lake\\D...', 74, Array)
 #1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->reservationChartInfo()
 #2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
@@ -68,14 +68,14 @@ ERROR - 2021-10-15 00:45:35 --> You have an error in your SQL syntax; check the 
  LIMIT 1' at line 4
 CRITICAL - 2021-10-15 00:45:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'c.deleted_at
  LIMIT 1' at line 4
-#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `clinic_...')
-#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `clinic_...')
-#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `clinic_...')
-#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `clinic_...', Array, false)
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `admin_...')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `admin_...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `admin_...')
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `admin_...', Array, false)
 #4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
 #5 C:\Users\lake\Documents\GitHub\MedicCorona\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
 #6 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(30): CodeIgniter\BaseModel->first()
-#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getClinicInfo()
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getadminInfo()
 #8 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
 #9 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #10 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
