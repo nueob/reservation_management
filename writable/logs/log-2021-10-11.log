@@ -1,0 +1,30 @@
+CRITICAL - 2021-10-11 12:01:05 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(218): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(176): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(29): require('C:\\Users\\lake\\D...')
+#4 {main}
+CRITICAL - 2021-10-11 12:02:11 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(218): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(176): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(29): require('C:\\Users\\lake\\D...')
+#4 {main}
+CRITICAL - 2021-10-11 12:02:12 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(218): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(176): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(29): require('C:\\Users\\lake\\D...')
+#4 {main}
+CRITICAL - 2021-10-11 12:02:23 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(218): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(176): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(29): require('C:\\Users\\lake\\D...')
+#4 {main}
+CRITICAL - 2021-10-11 12:02:32 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(218): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(176): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(29): require('C:\\Users\\lake\\D...')
+#4 {main}

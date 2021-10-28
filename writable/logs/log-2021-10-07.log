@@ -1,0 +1,98 @@
+CRITICAL - 2021-10-07 05:29:05 --> Undefined property: CodeIgniter\View\View::$load
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Views\html\authentication-login.php(171): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(214): include('...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Common.php(1092): CodeIgniter\View\View->render()
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(12): view()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-07 05:34:17 --> Undefined property: CodeIgniter\View\View::$load
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Views\html\authentication-login.php(171): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(214): include('...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Common.php(1092): CodeIgniter\View\View->render()
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(12): view()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-07 05:34:25 --> Undefined property: CodeIgniter\View\View::$load
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Views\html\authentication-login.php(171): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(214): include('...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Common.php(1092): CodeIgniter\View\View->render()
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(12): view()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-07 05:34:38 --> Undefined property: CodeIgniter\View\View::$load
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Views\html\authentication-login.php(171): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(214): include('...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Common.php(1092): CodeIgniter\View\View->render()
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(12): view()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-07 06:12:28 --> Invalid file: html/pages-elements.php
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Common.php(1092): CodeIgniter\View\View->render()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(12): view()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-07 06:19:35 --> Invalid file: html/pages-chat.php
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Common.php(1092): CodeIgniter\View\View->render()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(23): view()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-07 06:19:51 --> Invalid file: html/pages-chat.php
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Common.php(1092): CodeIgniter\View\View->render()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(23): view()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-07 06:22:31 --> Invalid file: html/form_basic.php
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Common.php(1092): CodeIgniter\View\View->render()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(15): view()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-07 06:22:53 --> Invalid file: html/form_basic.php
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Common.php(1092): CodeIgniter\View\View->render()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(15): view()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-07 06:23:05 --> Invalid file: html/form_basic.php
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Common.php(1092): CodeIgniter\View\View->render()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(15): view()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}

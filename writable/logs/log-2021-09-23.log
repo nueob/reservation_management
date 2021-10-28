@@ -1,0 +1,56 @@
+CRITICAL - 2021-09-23 07:04:39 --> Undefined property: App\Controllers\Home::$db
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-23 07:04:59 --> Undefined property: App\Controllers\Home::$db
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-23 07:05:01 --> Undefined property: App\Controllers\Home::$db
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-23 07:05:36 --> Undefined property: App\Controllers\Home::$db
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-23 07:06:15 --> Array to string conversion
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-23 07:06:35 --> Array to string conversion
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-23 07:06:37 --> Array to string conversion
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-23 07:07:08 --> Array to string conversion
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}

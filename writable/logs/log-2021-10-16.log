@@ -1,0 +1,8 @@
+CRITICAL - 2021-10-16 23:47:45 --> syntax error, unexpected '}', expecting ',' or ';'
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('sample/tables')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('sample/tables')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}

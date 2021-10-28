@@ -1,0 +1,14 @@
+ERROR - 2021-10-18 04:37:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GETDATE())' at line 6
+CRITICAL - 2021-10-18 04:37:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GETDATE())' at line 6
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(47): CodeIgniter\Model->__call('get', Array)
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#11 {main}

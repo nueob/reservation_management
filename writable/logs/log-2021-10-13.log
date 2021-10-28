@@ -1,0 +1,13 @@
+CRITICAL - 2021-10-13 23:35:32 --> Call to undefined method CodeIgniter\HTTP\Response::setData()
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->loginProc()
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-13 23:46:38 --> Call to undefined function App\Controllers\setJSON()
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->loginProc()
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#5 {main}

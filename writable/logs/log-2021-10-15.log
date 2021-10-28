@@ -1,0 +1,147 @@
+ERROR - 2021-10-15 00:04:38 --> Unknown column 'c.client_idx' in 'on clause'
+CRITICAL - 2021-10-15 00:04:38 --> Unknown column 'c.client_idx' in 'on clause'
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(59): CodeIgniter\Model->__call('get', Array)
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#11 {main}
+ERROR - 2021-10-15 00:09:11 --> Unknown column 'ar.inoculation' in 'where clause'
+CRITICAL - 2021-10-15 00:09:11 --> Unknown column 'ar.inoculation' in 'where clause'
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(59): CodeIgniter\Model->__call('get', Array)
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#11 {main}
+ERROR - 2021-10-15 00:09:15 --> Unknown column 'c.client_idx' in 'on clause'
+CRITICAL - 2021-10-15 00:09:15 --> Unknown column 'c.client_idx' in 'on clause'
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(59): CodeIgniter\Model->__call('get', Array)
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#11 {main}
+CRITICAL - 2021-10-15 00:23:48 --> Undefined variable: clinicModel
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\lake\\D...', 29, Array)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}
+CRITICAL - 2021-10-15 00:26:58 --> Undefined variable: clinicModel
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\lake\\D...', 29, Array)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}
+CRITICAL - 2021-10-15 00:26:58 --> Undefined variable: clinicModel
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\lake\\D...', 74, Array)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->reservationChartInfo()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}
+ERROR - 2021-10-15 00:45:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'c.deleted_at
+ LIMIT 1' at line 4
+CRITICAL - 2021-10-15 00:45:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'c.deleted_at
+ LIMIT 1' at line 4
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `clinic_...')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `clinic_...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `clinic_...')
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `clinic_...', Array, false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(30): CodeIgniter\BaseModel->first()
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getClinicInfo()
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#12 {main}
+ERROR - 2021-10-15 01:47:09 --> Column 'reservation_idx' in field list is ambiguous
+CRITICAL - 2021-10-15 01:47:09 --> Column 'reservation_idx' in field list is ambiguous
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `reserva...')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `reserva...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `reserva...')
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `reserva...', Array, false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Reservation_Management.php(40): CodeIgniter\Model->__call('get', Array)
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Reservation_Management->getReservationInfo()
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation_Management))
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#11 {main}
+ERROR - 2021-10-15 01:50:19 --> Column 'reservation_idx' in field list is ambiguous
+CRITICAL - 2021-10-15 01:50:19 --> Column 'reservation_idx' in field list is ambiguous
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `reserva...')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `reserva...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `reserva...')
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `reserva...', Array, false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Reservation_Management.php(40): CodeIgniter\Model->__call('get', Array)
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Reservation_Management->getReservationInfo()
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation_Management))
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#11 {main}
+ERROR - 2021-10-15 01:50:52 --> Column 'reservation_idx' in field list is ambiguous
+CRITICAL - 2021-10-15 01:50:52 --> Column 'reservation_idx' in field list is ambiguous
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `reserva...')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `reserva...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `reserva...')
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `reserva...', Array, false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Reservation_Management.php(40): CodeIgniter\Model->__call('get', Array)
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Reservation_Management->getReservationInfo()
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation_Management))
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#11 {main}
+CRITICAL - 2021-10-15 02:06:49 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php on line 236
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(236): CodeIgniter\Database\BaseBuilder->set('reservation_idx', Array, NULL)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Reservation_Management.php(55): CodeIgniter\Model->insert(Array)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Reservation_Management->allowReservationRequest()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation_Management))
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#9 {main}
+CRITICAL - 2021-10-15 02:08:36 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php on line 236
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(236): CodeIgniter\Database\BaseBuilder->set('reservation_idx', Array, NULL)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Reservation_Management.php(55): CodeIgniter\Model->insert(Array)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Reservation_Management->allowReservationRequest()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservation_Management))
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#9 {main}

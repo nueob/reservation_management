@@ -1,0 +1,467 @@
+CRITICAL - 2021-10-14 01:13:12 --> Class 'App\Controllers\ClinicModel' not found
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->loginProc()
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#5 {main}
+CRITICAL - 2021-10-14 01:14:26 --> Class 'Models\ClinicModel' not found
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->loginProc()
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#5 {main}
+CRITICAL - 2021-10-14 01:15:26 --> Class 'App\Models\clinicModel' not found
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->loginProc()
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#5 {main}
+CRITICAL - 2021-10-14 01:15:29 --> Class 'App\Models\clinicModel' not found
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->loginProc()
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#5 {main}
+CRITICAL - 2021-10-14 01:15:40 --> Class 'App\Models\clinicModel' not found
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->loginProc()
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#5 {main}
+CRITICAL - 2021-10-14 01:16:47 --> Class 'App\Models\clinicModel' not found
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->loginProc()
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#5 {main}
+ERROR - 2021-10-14 01:42:05 --> Unknown column 'clinic_info.deleted_at' in 'where clause'
+CRITICAL - 2021-10-14 01:42:05 --> Unknown column 'clinic_info.deleted_at' in 'where clause'
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `clinic_...')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `clinic_...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `clinic_...')
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `clinic_...', Array, false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(25): CodeIgniter\BaseModel->first()
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->loginProc()
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#12 {main}
+ERROR - 2021-10-14 01:42:29 --> Unknown column 'clinic_info.deleted_at' in 'where clause'
+CRITICAL - 2021-10-14 01:42:29 --> Unknown column 'clinic_info.deleted_at' in 'where clause'
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `clinic_...')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `clinic_...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `clinic_...')
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `clinic_...', Array, false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(25): CodeIgniter\BaseModel->first()
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->loginProc()
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#12 {main}
+CRITICAL - 2021-10-14 01:42:54 --> syntax error, unexpected ''code'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\lake\\D...')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#9 {main}
+CRITICAL - 2021-10-14 01:43:09 --> Undefined index: clinic_idx
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\lake\\D...', 27, Array)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->loginProc()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}
+CRITICAL - 2021-10-14 01:44:09 --> Undefined variable: session
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\lake\\D...', 31, Array)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->loginProc()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}
+CRITICAL - 2021-10-14 01:48:40 --> Undefined index: clinic_idx
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Views\html\login.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\lake\\D...', 170, Array)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(214): include('C:\\Users\\lake\\D...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Common.php(1092): CodeIgniter\View\View->render('html/login', Array, true)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(11): view('html/login')
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#10 {main}
+CRITICAL - 2021-10-14 01:49:28 --> Undefined index: clinic_idx
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Views\html\login.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\lake\\D...', 170, Array)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(214): include('C:\\Users\\lake\\D...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Common.php(1092): CodeIgniter\View\View->render('html/login', Array, true)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(11): view('html/login')
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#10 {main}
+CRITICAL - 2021-10-14 01:49:39 --> Undefined index: is_login
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Views\html\login.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\lake\\D...', 170, Array)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(214): include('C:\\Users\\lake\\D...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Common.php(1092): CodeIgniter\View\View->render('html/login', Array, true)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(11): view('html/login')
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#10 {main}
+CRITICAL - 2021-10-14 01:51:56 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Views\html\login.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\lake\\D...', 170, Array)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(214): include('C:\\Users\\lake\\D...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Common.php(1092): CodeIgniter\View\View->render('html/login', Array, true)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(23): view('html/login')
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#10 {main}
+CRITICAL - 2021-10-14 01:51:57 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Views\html\login.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\lake\\D...', 170, Array)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(214): include('C:\\Users\\lake\\D...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Common.php(1092): CodeIgniter\View\View->render('html/login', Array, true)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Home.php(23): view('html/login')
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#10 {main}
+CRITICAL - 2021-10-14 04:39:45 --> Undefined property: App\Controllers\Dashboard::$session
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\lake\\D...', 15, Array)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}
+CRITICAL - 2021-10-14 04:40:05 --> Undefined property: App\Controllers\Dashboard::$session
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\lake\\D...', 15, Array)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}
+CRITICAL - 2021-10-14 04:40:12 --> Undefined property: App\Controllers\Dashboard::$session
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\lake\\D...', 15, Array)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}
+CRITICAL - 2021-10-14 04:40:48 --> Undefined property: App\Controllers\Dashboard::$session
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\lake\\D...', 15, Array)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}
+CRITICAL - 2021-10-14 04:40:58 --> Undefined property: App\Controllers\Dashboard::$session
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\lake\\D...', 15, Array)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}
+CRITICAL - 2021-10-14 04:41:04 --> Undefined property: App\Controllers\Dashboard::$session
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\lake\\D...', 15, Array)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}
+CRITICAL - 2021-10-14 04:42:06 --> Undefined property: App\Controllers\Dashboard::$db
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\lake\\D...', 25, Array)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}
+CRITICAL - 2021-10-14 04:42:18 --> Undefined property: App\Controllers\Dashboard::$db
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\lake\\D...', 25, Array)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}
+CRITICAL - 2021-10-14 04:43:06 --> Undefined property: App\Controllers\Dashboard::$db
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\lake\\D...', 27, Array)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}
+CRITICAL - 2021-10-14 04:43:15 --> Undefined variable: db
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\lake\\D...', 27, Array)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}
+CRITICAL - 2021-10-14 04:44:09 --> Undefined property: App\Controllers\Dashboard::$db
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\lake\\D...', 27, Array)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}
+ERROR - 2021-10-14 04:45:30 --> Unknown column 'r.clinic_idx' in 'on clause'
+CRITICAL - 2021-10-14 04:45:30 --> Unknown column 'r.clinic_idx' in 'on clause'
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(45): CodeIgniter\Model->__call('get', Array)
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#11 {main}
+ERROR - 2021-10-14 04:45:52 --> Unknown column 'create_dt' in 'order clause'
+CRITICAL - 2021-10-14 04:45:52 --> Unknown column 'create_dt' in 'order clause'
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(45): CodeIgniter\Model->__call('get', Array)
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#11 {main}
+ERROR - 2021-10-14 04:46:35 --> Column 'created_dt' in order clause is ambiguous
+CRITICAL - 2021-10-14 04:46:35 --> Column 'created_dt' in order clause is ambiguous
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(45): CodeIgniter\Model->__call('get', Array)
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#11 {main}
+ERROR - 2021-10-14 04:46:53 --> Column 'created_dt' in order clause is ambiguous
+CRITICAL - 2021-10-14 04:46:53 --> Column 'created_dt' in order clause is ambiguous
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(44): CodeIgniter\Model->__call('get', Array)
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#11 {main}
+ERROR - 2021-10-14 04:47:43 --> Column 'created_dt' in order clause is ambiguous
+CRITICAL - 2021-10-14 04:47:43 --> Column 'created_dt' in order clause is ambiguous
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(46): CodeIgniter\Model->__call('get', Array)
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#11 {main}
+ERROR - 2021-10-14 04:48:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GETDATE())
+AND `inoculation` = 'n'' at line 5
+CRITICAL - 2021-10-14 04:48:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GETDATE())
+AND `inoculation` = 'n'' at line 5
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(56): CodeIgniter\Model->__call('get', Array)
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#11 {main}
+ERROR - 2021-10-14 04:49:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= CONVERT(time,GETDATE())
+AND `inoculation` = 'n'' at line 5
+CRITICAL - 2021-10-14 04:49:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= CONVERT(time,GETDATE())
+AND `inoculation` = 'n'' at line 5
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(56): CodeIgniter\Model->__call('get', Array)
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#11 {main}
+ERROR - 2021-10-14 04:49:25 --> Unknown column 'c.client_idx' in 'on clause'
+CRITICAL - 2021-10-14 04:49:25 --> Unknown column 'c.client_idx' in 'on clause'
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(56): CodeIgniter\Model->__call('get', Array)
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#11 {main}
+CRITICAL - 2021-10-14 04:51:08 --> Undefined offset: 0
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\lake\\D...', 63, Array)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}
+CRITICAL - 2021-10-14 04:51:44 --> Undefined offset: 0
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\lake\\D...', 63, Array)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}
+CRITICAL - 2021-10-14 04:52:26 --> Undefined index: wating_time
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\lake\\D...', 63, Array)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}
+CRITICAL - 2021-10-14 22:43:48 --> Undefined index: wating_time
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\lake\\D...', 64, Array)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}
+CRITICAL - 2021-10-14 22:44:58 --> Undefined index: wating_time
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\lake\\D...', 64, Array)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}
+ERROR - 2021-10-14 22:56:31 --> Incorrect parameters in the call to native function 'SEC_TO_TIME'
+CRITICAL - 2021-10-14 22:56:31 --> Incorrect parameters in the call to native function 'SEC_TO_TIME'
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT SEC_TO_T...')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SEC_TO_T...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SEC_TO_T...')
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT SEC_TO_T...', Array, false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(51): CodeIgniter\Model->__call('get', Array)
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#11 {main}
+CRITICAL - 2021-10-14 22:58:16 --> Undefined index: time
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\lake\\D...', 64, Array)
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#6 {main}
+ERROR - 2021-10-14 23:01:45 --> Unknown column 'c.client_idx' in 'on clause'
+CRITICAL - 2021-10-14 23:01:45 --> Unknown column 'c.client_idx' in 'on clause'
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(59): CodeIgniter\Model->__call('get', Array)
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#11 {main}
+ERROR - 2021-10-14 23:56:47 --> Unknown column 'c.client_idx' in 'on clause'
+CRITICAL - 2021-10-14 23:56:47 --> Unknown column 'c.client_idx' in 'on clause'
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(59): CodeIgniter\Model->__call('get', Array)
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#11 {main}
+ERROR - 2021-10-14 23:56:55 --> Unknown column 'c.client_idx' in 'on clause'
+CRITICAL - 2021-10-14 23:56:55 --> Unknown column 'c.client_idx' in 'on clause'
+#0 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\lake\Documents\GitHub\MedicCorona\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\lake\Documents\GitHub\MedicCorona\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lake\Documents\GitHub\MedicCorona\app\Controllers\Dashboard.php(59): CodeIgniter\Model->__call('get', Array)
+#6 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(802): App\Controllers\Dashboard->getReservationInfo()
+#7 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\Users\lake\Documents\GitHub\MedicCorona\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lake\Documents\GitHub\MedicCorona\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lake\Documents\GitHub\MedicCorona\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lake\\D...')
+#11 {main}
