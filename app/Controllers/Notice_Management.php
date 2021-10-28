@@ -37,15 +37,15 @@ class Notice_Management extends BaseController
         }
 
         $noticeModel = new \App\Models\NoticeModel();
-        $noticeInfoCnt = $adminModel  -> where('admin_idx',$adminIdx)
-                                            -> get() -> getNumRows();
+        $noticeInfoCnt = $noticeModel  -> where('admin_idx',$adminIdx)
+                                     -> get() -> getNumRows();
 
-        $noticeInfo = $adminModel  -> where('admin_idx',$adminIdx)
+        $noticeInfo = $noticeModel  -> where('admin_idx',$adminIdx)
                                          -> orderby('created_dt DESC')
                                          -> limit(10,$limit)
                                          -> get() -> getResultArray();
 
-        $log->save(['controller' => 'Notice_Management', 'function' => 'getNoticeInfo', 'message' => $adminModel->getLastQuery()]);
+        $log->save(['controller' => 'Notice_Management', 'function' => 'getNoticeInfo', 'message' => $noticeModel->getLastQuery()]);
 
         $data = [
             'noticeInfoCnt' => $noticeInfoCnt,
@@ -54,5 +54,17 @@ class Notice_Management extends BaseController
         ];
 
         return $this->response->setJSON($data); 
+    }
+    public function setNotice()
+    {
+        $idx = $_GET['idx'];
+
+        if(empty($idx)) {
+            $idx = 0;
+        }
+        
+        echo view('header');
+        echo view('html/notice_management',$idx);
+        echo view('footer');
     }
 }

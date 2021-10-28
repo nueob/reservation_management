@@ -60,35 +60,51 @@
           <!-- ============================================================== -->
           <div class="row">
             <div class="col-12">
-              <div class="card">
-                  <div class="card-body">
+                <div id="notice_button" style="padding-bottom:15px;">
+                    <button type="button" class="btn btn-info" style="position:relative;left:90%;padding-left:10px" @click="goToAddNotice">추가</button>
+                    <button type="button" class="btn btn-light" style="position:relative;left:90%;padding-right:10px">삭제</button>
+                </div>
+                <div class="card">
+                    <div class="card-body">
                     <div class="table-responsive">
                         <template v-if="noticeInfoCnt > 0">
                             <table id="zero_config" class="table table-striped table-bordered">
                                 <thead>
-                                <tr>
-                                    <th>제목</th>
-                                    <th>작성 날짜</th>
-                                    <th>게재 여부</th>
-                                </tr>
-                                </thead>
-                                    <tbody>
-                                    <tr v-for="notice in noticeInfo" @click="goToDetailNotice(notice.idx)">
-                                        <td>{{notice.subject}}</td>
-                                        <td>{{notice.created_dt}}</td>
-                                        <td>{{notice.publication}}</td>
+                                    <tr>
+                                        <th style="width:5%;">
+                                            <label class="customcheckbox mb-3" style="margin-left:15px;">
+                                                <input type="checkbox" id="mainCheckbox" v-model="checkAllNotice"/>
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </th>
+                                        <th>제목</th>
+                                        <th>작성 날짜</th>
+                                        <th>게재 여부</th>
                                     </tr>
-                                    </tbody>
+                                </thead>
+                                <tbody>
+                                    <tr v-for="notice in noticeInfo">
+                                        <th>
+                                            <label class="customcheckbox" style="margin-left:15px;">
+                                                <input type="checkbox" class="listCheckbox" :id="notice.idx" :value="notice.idx" v-model="checkNotice"/>
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </th>
+                                        <td  @click="goToDetailNotice(notice.idx)">{{notice.subject}}</td>
+                                        <td  @click="goToDetailNotice(notice.idx)">{{notice.created_dt}}</td>
+                                        <td  @click="goToDetailNotice(notice.idx)">{{notice.publication}}</td>
+                                    </tr>
+                                </tbody>
                             </table>
                         </template>
                         <template v-else>
                             <td>등록된 공지사항이 없습니다.</td>
                         </template>
                     </div>
-                  </div>
-                  <!-- </div> -->
+                    </div>
+                    <!-- </div> -->
                 <!-- </div> -->
-              </div>
+                </div>
             </div>
           </div>
           <div class="pagination">
@@ -109,14 +125,17 @@
   var management = new Vue({
     el:'.page-wrapper',
     data : {
-      noticeInfo:[],
-      noticeInfoCnt:0,
-      pages:[],
-      page:1,
-      paginationSize:0,
+        checkAllNotice:[],
+        checkNotice:[],
+        noticeInfo:[],
+        noticeInfoCnt:0,
+        pages:[],
+        page:1,
+        paginationSize:0,
     },
     created() {
-      this.getNoticeInfo();
+        console.log('hi');
+        this.getNoticeInfo();
     },
     methods :{
       getNoticeInfo : async function() {
@@ -141,23 +160,41 @@
         this.getNoticeInfo();
       },
       goToDetailNotice : function(idx) {
-        location.href = '/noticeInfo_management/detailnoticeInfoInfo?idx='+idx;
+        location.href = '/noticeInfo_management/setNotice?idx='+idx;
+      },
+      goToAddNotice : function() {
+        location.href = '/noticeInfo_management/setNotice';
       }
     },
     watch :{
-      noticeInfo : function() {
-        this.pages = [];
-        this.paginationSize = parseInt(this.noticeInfoCnt/10)+1;
-        var size = 0;
-        if(this.paginationSize > 5) {
-          size = 5;
-        } else {
-          size = parseInt(this.noticeInfoCnt/10)+1;
+        noticeInfo : function() {
+            this.pages = [];
+            this.paginationSize = parseInt(this.noticeInfoCnt/10)+1;
+            var size = 0;
+            if(this.paginationSize > 5) {
+                size = 5;
+            } else {
+                size = parseInt(this.noticeInfoCnt/10)+1;
+            }
+            for(var i=this.page ; i<=size ; i++) {
+                this.pages.push(i);
+            }
+        },
+        checkAllNotice : function() {
+            if(this.checkAllNotice) {
+                this.noticeInfo.forEach(el=>{
+                    this.checkNotice.push(el.idx);
+                })
+            } else {
+                this.checkNotice = [];
+            }
+        },
+        checkNotice : function() {
+            if(this.checkNotice.length == 10) {
+                this.checkAllNotice = true;
+            }
+            console.log(this.checkNotice);
         }
-        for(var i=this.page ; i<=size ; i++) {
-          this.pages.push(i);
-        }
-      },
     }
   })
 </script>

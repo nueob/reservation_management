@@ -15,7 +15,7 @@ class NoticeModel extends Model
     protected $useSoftDeletes = false; //true이면 delete* 메소드 호출은 실제로 행을 삭제하는 대신 데이터베이스의 deleted_at 필드를 설정
 
     protected $allowedFields = [
-        'subject','content','publication'
+        'admin_idx','subject','content','publication'
     ];
 
     protected $useTimestamps = false;
