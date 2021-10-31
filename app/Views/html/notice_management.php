@@ -160,10 +160,10 @@
         this.getNoticeInfo();
       },
       goToDetailNotice : function(idx) {
-        location.href = '/noticeInfo_management/setNotice?idx='+idx;
+        location.href = '/notice_management/setNotice?idx='+idx;
       },
       goToAddNotice : function() {
-        location.href = '/noticeInfo_management/setNotice';
+        location.href = '/notice_management/setNotice';
       }
     },
     watch :{

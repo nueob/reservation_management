@@ -1,0 +1,49 @@
+CRITICAL - 2021-10-31 06:52:44 --> Undefined offset: 0
+#0 C:\Users\lake\Documents\GitHub\reservation_management\app\Controllers\Dashboard.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\lake\\D...', 31, Array)
+#1 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(802): App\Controllers\Dashboard->getadminInfo()
+#2 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\reservation_management\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-31 06:53:33 --> Undefined offset: 0
+#0 C:\Users\lake\Documents\GitHub\reservation_management\app\Controllers\Dashboard.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\lake\\D...', 31, Array)
+#1 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(802): App\Controllers\Dashboard->getadminInfo()
+#2 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\reservation_management\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-31 06:59:30 --> Undefined index: idx
+#0 C:\Users\lake\Documents\GitHub\reservation_management\app\Controllers\Notice_Management.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\lake\\D...', 60, Array)
+#1 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(802): App\Controllers\Notice_Management->setNotice()
+#2 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notice_Management))
+#3 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\reservation_management\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-31 06:59:57 --> Undefined index: idx
+#0 C:\Users\lake\Documents\GitHub\reservation_management\app\Controllers\Notice_Management.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\lake\\D...', 60, Array)
+#1 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(802): App\Controllers\Notice_Management->setNotice()
+#2 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notice_Management))
+#3 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\reservation_management\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-31 07:00:01 --> Argument 2 passed to view() must be of the type array, int given, called in C:\Users\lake\Documents\GitHub\reservation_management\app\Controllers\Notice_Management.php on line 67
+#0 C:\Users\lake\Documents\GitHub\reservation_management\app\Controllers\Notice_Management.php(67): view('html/notice_wri...', 0)
+#1 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(802): App\Controllers\Notice_Management->setNotice()
+#2 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notice_Management))
+#3 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\reservation_management\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-31 07:00:51 --> Argument 2 passed to view() must be of the type array, int given, called in C:\Users\lake\Documents\GitHub\reservation_management\app\Controllers\Notice_Management.php on line 67
+#0 C:\Users\lake\Documents\GitHub\reservation_management\app\Controllers\Notice_Management.php(67): view('html/notice_wri...', 0)
+#1 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(802): App\Controllers\Notice_Management->setNotice()
+#2 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notice_Management))
+#3 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\reservation_management\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-31 07:04:49 --> Argument 2 passed to view() must be of the type array, int given, called in C:\Users\lake\Documents\GitHub\reservation_management\app\Controllers\Notice_Management.php on line 67
+#0 C:\Users\lake\Documents\GitHub\reservation_management\app\Controllers\Notice_Management.php(67): view('html/notice_wri...', 0)
+#1 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(802): App\Controllers\Notice_Management->setNotice()
+#2 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notice_Management))
+#3 C:\Users\lake\Documents\GitHub\reservation_management\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lake\Documents\GitHub\reservation_management\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}

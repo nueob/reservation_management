@@ -57,14 +57,14 @@ class Notice_Management extends BaseController
     }
     public function setNotice()
     {
-        $idx = $_GET['idx'];
+        // $idx = $_GET['idx'];
 
-        if(empty($idx)) {
-            $idx = 0;
-        }
+        // if(empty($idx)) {
+        //     $idx = 0;
+        // }
         
         echo view('header');
-        echo view('html/notice_management',$idx);
+        echo view('html/notice_writing');
         echo view('footer');
     }
 }
