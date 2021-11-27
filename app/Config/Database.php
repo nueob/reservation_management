@@ -33,8 +33,8 @@ class Database extends Config
     public $default = [
         'DSN'      => '',
         'hostname' => 'localhost',
-        'username' => 'web',
-        'password' => 'IqH56hfT!HQjLj3r',
+        'username' => 'hannam',
+        'password' => '',
         'database' => 'reservation_management',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
